@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="startingQuiz">
+      <h3 id="heading">
+        This is a quiz I created about my favorite TV series called "Sopranos"
+      </h3>
+      <button id="startButton">Start the quiz</button>
+    </div>
+    <div id="endOfTheQuiz" style="display: none">
+      <h1>You got <span id="score"> </span>/20</h1>
+    </div>
+    <div class="quiz" id="quizContent" style="display: none">
+      <h1 id="questionH1"></h1>
+      <div class="answers">
+        <div class="answer1" id="option1">
+          <p id="answerNumberOne"></p>
+        </div>
+        <div class="answer2" id="option2">
+          <p id="answerNumberTwo"></p>
+        </div>
+        <div class="answer3" id="option">
+          <p id="answerNumberThree"></p>
+        </div>
+        <div class="answer4" id="option4">
+          <p id="answerNumberFour"></p>
+        </div>
+      </div>
+      <h2>question N<span id="span">1</span></h2>
+    </div>
+  </body>
+  <script src="./dist/script.js"></script>
+</html>
